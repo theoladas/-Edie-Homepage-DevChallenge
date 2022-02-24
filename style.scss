@@ -212,3 +212,43 @@ header {
     }
   }
 }
+
+// IMAGE GRID
+.image-grid {
+  .container {
+    h3 {
+      width: 35%;
+      padding: 4rem 1rem;
+    }
+    .row {
+      position: relative;
+      padding-bottom: 2rem;
+      .column {
+        padding: 1rem;
+        .grid-img {
+          max-width: 534px;
+          height: 534px;
+          img {
+            width: 100%;
+            border-radius: 16px;
+          }
+        }
+        span {
+          color: #828282;
+          font-weight: 300;
+          font-size: 14px;
+          padding-top: 10px;
+        }
+        h4 {
+          font-weight: 500;
+        }
+      }
+      .col-positioning {
+        padding-top: 3rem;
+        position: absolute;
+        top: -20%;
+        left: 50%;
+      }
+    }
+  }
+}

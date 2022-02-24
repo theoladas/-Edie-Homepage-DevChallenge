@@ -218,4 +218,39 @@ header nav .nav-links li {
   padding-bottom: 1rem;
   color: #4f4f4f;
   font-size: 16px;
+}
+
+.image-grid .container h3 {
+  width: 35%;
+  padding: 4rem 1rem;
+}
+.image-grid .container .row {
+  position: relative;
+  padding-bottom: 2rem;
+}
+.image-grid .container .row .column {
+  padding: 1rem;
+}
+.image-grid .container .row .column .grid-img {
+  max-width: 534px;
+  height: 534px;
+}
+.image-grid .container .row .column .grid-img img {
+  width: 100%;
+  border-radius: 16px;
+}
+.image-grid .container .row .column span {
+  color: #828282;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.image-grid .container .row .column h4 {
+  font-weight: 500;
+}
+.image-grid .container .row .col-positioning {
+  padding-top: 3rem;
+  position: absolute;
+  top: -20%;
+  left: 50%;
 }/*# sourceMappingURL=style.css.map */
