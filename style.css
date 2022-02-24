@@ -245,8 +245,8 @@ header nav .nav-links li a:hover {
   padding-bottom: 6rem;
 }
 .image-grid .container a .fas {
-  padding-left: 0.5rem;
-  vertical-align: bottom;
+  padding: 0.35rem 0.5rem;
+  vertical-align: middle;
 }
 .image-grid .container .row {
   position: relative;
