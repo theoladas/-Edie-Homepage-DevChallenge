@@ -78,6 +78,32 @@ footer {
   flex-direction: column;
 }
 
+.disabled-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #828282;
+  display: block;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.disabled-btn:hover {
+  color: #fff;
+  background-color: #2d9cdb;
+}
+
+.fa-solid {
+  color: #fff;
+  display: block;
+  transform: translate(50%, 50%);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
 header {
   padding: 0rem 5rem;
 }
@@ -110,6 +136,9 @@ header nav .nav-links li {
   border-radius: 18px;
 }
 
+.hero-subscribe {
+  padding-bottom: 4rem;
+}
 .hero-subscribe h2 {
   width: 40%;
 }
@@ -142,12 +171,41 @@ header nav .nav-links li {
 }
 .hero-subscribe button {
   background-color: #2d9cdb;
-  color: #f2f2f2;
+  color: rgba(242, 242, 242, 0.8);
   border: none;
   font-size: 18px;
   border-radius: 12px;
+  cursor: pointer;
   padding: 10px 20px;
+  transition: all 0.3s ease;
   position: absolute;
   bottom: 13px;
   left: 230px;
+}
+.hero-subscribe button:hover {
+  color: #f2f2f2;
+}
+
+.cards h3 {
+  width: 30%;
+}
+.cards .card {
+  padding: 3rem;
+}
+.cards .card .icon1 {
+  background-color: #2d9cdb;
+  border-radius: 16px;
+}
+.cards .card .icon {
+  max-width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 2rem 0rem;
+}
+.cards .card h4 {
+  padding: 1rem 0rem;
+}
+.cards .card p {
+  width: 30%;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -47,6 +47,7 @@ footer {
   font-size: 14px;
   font-size: 700;
 }
+
 .container {
   max-width: 1200px;
   width: 95%;
@@ -63,6 +64,30 @@ footer {
 .column {
   display: flex;
   flex-direction: column;
+}
+.disabled-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #828282;
+  display: block;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    color: #fff;
+    background-color: #2d9cdb;
+  }
+}
+.fa-solid {
+  color: #fff;
+  display: block;
+  transform: translate(50%, 50%);
+  position: absolute;
+  top: 20%;
+  left: 20%;
 }
 // NAV
 header {
@@ -99,6 +124,7 @@ header {
   }
 }
 .hero-subscribe {
+  padding-bottom: 4rem;
   h2 {
     width: 40%;
   }
@@ -131,13 +157,45 @@ header {
   }
   button {
     background-color: #2d9cdb;
-    color: #f2f2f2;
+    color: rgba(242, 242, 242, 0.8);
     border: none;
     font-size: 18px;
     border-radius: 12px;
+    cursor: pointer;
     padding: 10px 20px;
+    transition: all 0.3s ease;
     position: absolute;
     bottom: 13px;
     left: 230px;
+    &:hover {
+      color: rgba(242, 242, 242, 1);
+    }
+  }
+}
+
+// CARDS
+.cards {
+  h3 {
+    width: 30%;
+  }
+  .card {
+    padding: 3rem;
+    .icon1 {
+      background-color: #2d9cdb;
+      border-radius: 16px;
+    }
+    .icon {
+      max-width: 60px;
+      height: 60px;
+      position: relative;
+      margin: 2rem 0rem;
+    }
+    h4 {
+      padding: 1rem 0rem;
+    }
+    p {
+      width: 30%;
+      padding-bottom: 1rem;
+    }
   }
 }
