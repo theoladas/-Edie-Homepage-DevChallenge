@@ -18,9 +18,22 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: 500;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
 }
 
 a,
@@ -31,6 +44,11 @@ li {
   list-style: none;
   text-decoration: none;
   color: #333333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
@@ -45,12 +63,23 @@ footer {
   margin: 0 auto;
 }
 
+.container2 {
+  max-width: 1024px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-  padding-left: 2rem;
+  padding: 0rem 5rem;
 }
 header nav {
   display: flex;
@@ -62,4 +91,63 @@ header nav .nav-links {
 }
 header nav .nav-links li {
   padding: 20px;
+}
+
+.hero-info {
+  padding-top: 4rem;
+}
+.hero-info .container2 p {
+  color: #2d9cdb;
+}
+.hero-info .container2 h2 {
+  width: 57%;
+}
+
+.hero-image {
+  padding: 2rem 0rem;
+}
+.hero-image img {
+  border-radius: 18px;
+}
+
+.hero-subscribe h2 {
+  width: 40%;
+}
+.hero-subscribe p {
+  width: 40%;
+  color: #4f4f4f;
+  padding: 1rem 0rem;
+}
+.hero-subscribe span {
+  color: #828282;
+  font-size: 14px;
+}
+.hero-subscribe form {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.hero-subscribe form input[type=email] {
+  color: #bdbdbd;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 30%;
+}
+.hero-subscribe button {
+  background-color: #2d9cdb;
+  color: #f2f2f2;
+  border: none;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 13px;
+  left: 230px;
 }/*# sourceMappingURL=style.css.map */
