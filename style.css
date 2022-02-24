@@ -55,6 +55,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-size: 700;
+  color: #f2f2f2;
 }
 
 .container {
@@ -154,7 +155,6 @@ header nav .nav-links li {
   position: relative;
 }
 .hero-subscribe form input[type=email] {
-  color: #bdbdbd;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -351,18 +351,84 @@ header nav .nav-links li {
 footer {
   background-color: #100e1d;
 }
+footer .container .row {
+  padding-top: 2rem;
+  justify-content: space-between;
+}
 footer .container .row .footer-links li,
 footer .container .row .footer-links a {
   font-weight: 400;
   font-size: 18px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+footer .container .row .footer-links li:hover,
+footer .container .row .footer-links a:hover {
+  color: white;
 }
 footer .container .row .column h1 {
   color: #f2f2f2;
 }
+footer .container .row .column .row {
+  padding-top: 0;
+}
 footer .container .row .column .row .fa-brands {
   font-size: 18px;
   padding-right: 10px;
-  color: #f2f2f2;
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+footer .container .row .column .row .fa-brands:hover {
+  color: white;
+}
+footer .container .row .column span {
+  color: #f2f2f2;
+  font-size: 14px;
+}
+footer .container .row .column form {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+footer .container .row .column form input[type=email] {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 140%;
+}
+footer .container .row .column form button {
+  background-color: #2d9cdb;
+  color: rgba(242, 242, 242, 0.8);
+  border: none;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 13px;
+  left: 218px;
+}
+footer .container .row .column form button:hover {
+  color: #f2f2f2;
+}
+footer .container .row .footer-text {
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+footer .container .row .footer-text a {
+  color: rgba(242, 242, 242, 0.8);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+footer .container .row .footer-text a:hover {
+  color: #f2f2f2;
 }/*# sourceMappingURL=style.css.map */
