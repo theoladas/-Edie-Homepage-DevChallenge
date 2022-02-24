@@ -224,18 +224,17 @@ header nav .nav-links li {
   width: 35%;
   padding: 4rem 1rem;
 }
-.image-grid .container .grid-link {
-  display: flex;
-  justify-content: flex-end;
-}
-.image-grid .container .grid-link a {
+.image-grid .container a {
   font-weight: 500;
   color: #2d9cdb;
   font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 6rem;
 }
-.image-grid .container .grid-link a .fas {
+.image-grid .container a .fas {
   padding-left: 0.5rem;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 .image-grid .container .row {
   position: relative;
@@ -269,4 +268,47 @@ header nav .nav-links li {
   position: absolute;
   top: -20%;
   left: 50%;
+}
+
+.meet-the-team {
+  padding: 6rem 0rem;
+}
+.meet-the-team .container .row {
+  align-items: center;
+}
+.meet-the-team .container .row .meet-image {
+  max-width: 200px;
+  height: 200px;
+}
+.meet-the-team .container .row .meet-image img {
+  border-radius: 16px;
+}
+.meet-the-team .container .row .column {
+  width: 50%;
+}
+.meet-the-team .container .row .column h3 {
+  width: 50%;
+}
+.meet-the-team .container .row .column p {
+  font-weight: 500;
+  color: #eb5757;
+  padding-bottom: 1rem;
+}
+.meet-the-team .container .row .column span {
+  padding-top: 1rem;
+  font-size: 14px;
+  color: #4f4f4f;
+  width: 40%;
+}
+.meet-the-team .container .row .meet-column-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  height: 200px;
+}
+.meet-the-team .container .row .meet-column-imgs img {
+  border-radius: 16px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
