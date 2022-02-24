@@ -157,15 +157,57 @@ header nav .burger:hover {
 .hero-info {
   padding-top: 4rem;
 }
+@media (max-width: 1024px) {
+  .hero-info {
+    padding-top: 2rem;
+  }
+}
 .hero-info .container2 p {
   color: #2d9cdb;
+}
+@media (max-width: 400px) {
+  .hero-info .container2 p {
+    font-size: 16px;
+  }
 }
 .hero-info .container2 h2 {
   width: 57%;
 }
+@media (max-width: 1024px) {
+  .hero-info .container2 h2 {
+    font-size: 40px;
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .hero-info .container2 h2 {
+    font-size: 38px;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .hero-info .container2 h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 500px) {
+  .hero-info .container2 h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .hero-info .container2 h2 {
+    font-size: 24px;
+  }
+}
 
 .hero-image {
   padding: 2rem 0rem;
+}
+@media (max-width: 768px) {
+  .hero-image {
+    padding: 1rem 0rem;
+  }
 }
 .hero-image img {
   border-radius: 18px;
@@ -174,13 +216,55 @@ header nav .burger:hover {
 .hero-subscribe {
   padding-bottom: 4rem;
 }
+@media (max-width: 768px) {
+  .hero-subscribe {
+    padding-bottom: 2rem;
+  }
+}
 .hero-subscribe h2 {
   width: 40%;
+}
+@media (max-width: 1024px) {
+  .hero-subscribe h2 {
+    font-size: 40px;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .hero-subscribe h2 {
+    font-size: 38px;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .hero-subscribe h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 500px) {
+  .hero-subscribe h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .hero-subscribe h2 {
+    font-size: 24px;
+  }
 }
 .hero-subscribe p {
   width: 40%;
   color: #4f4f4f;
   padding: 1rem 0rem;
+}
+@media (max-width: 768px) {
+  .hero-subscribe p {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .hero-subscribe p {
+    font-size: 16px;
+  }
 }
 .hero-subscribe span {
   color: #828282;
@@ -472,6 +556,9 @@ footer .container .row .footer-text a:hover {
 }
 
 @media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem;
+  }
   header nav .nav-links {
     position: fixed;
     right: 0px;

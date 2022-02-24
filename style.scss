@@ -100,9 +100,6 @@ header {
       @media (max-width: 1024px) {
         font-size: 33px;
       }
-      // @media (max-width: 830px) {
-      //   font-size: 30px;
-      // }
     }
     .nav-links {
       display: flex;
@@ -142,30 +139,84 @@ header {
 // HERO
 .hero-info {
   padding-top: 4rem;
+  @media (max-width: 1024px) {
+    padding-top: 2rem;
+  }
   .container2 {
     p {
       color: #2d9cdb;
+      @media (max-width: 400px) {
+        font-size: 16px;
+      }
     }
     h2 {
       width: 57%;
+      @media (max-width: 1024px) {
+        font-size: 40px;
+        width: 70%;
+      }
+      @media (max-width: 768px) {
+        font-size: 38px;
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        font-size: 32px;
+      }
+      @media (max-width: 500px) {
+        font-size: 28px;
+      }
+      @media (max-width: 400px) {
+        font-size: 24px;
+      }
     }
   }
 }
 .hero-image {
   padding: 2rem 0rem;
+  @media (max-width: 768px) {
+    padding: 1rem 0rem;
+  }
+
   img {
     border-radius: 18px;
   }
 }
 .hero-subscribe {
   padding-bottom: 4rem;
+  @media (max-width: 768px) {
+    padding-bottom: 2rem;
+  }
+
   h2 {
     width: 40%;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+      width: 50%;
+    }
+    @media (max-width: 768px) {
+      font-size: 38px;
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      font-size: 32px;
+    }
+    @media (max-width: 500px) {
+      font-size: 28px;
+    }
+    @media (max-width: 400px) {
+      font-size: 24px;
+    }
   }
   p {
     width: 40%;
     color: #4f4f4f;
     padding: 1rem 0rem;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 400px) {
+      font-size: 16px;
+    }
   }
   span {
     color: #828282;
@@ -489,6 +540,7 @@ footer {
 // MOBILE
 @media (max-width: 768px) {
   header {
+    padding: 2rem 1rem;
     nav {
       .nav-links {
         position: fixed;
