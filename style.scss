@@ -309,6 +309,41 @@ header {
           border-radius: 16px;
           padding: 10px;
         }
+        .person1-img {
+          max-width: 90%;
+          align-self: flex-start;
+        }
+      }
+    }
+  }
+}
+
+// QUOTE
+.quote {
+  .container {
+    padding-top: 4rem;
+    h3 {
+      width: 75%;
+      padding-bottom: 2rem;
+    }
+    .row {
+      .image {
+        max-width: 80px;
+        height: 80px;
+        padding-right: 1rem;
+        img {
+          max-width: 100%;
+          border-radius: 12px;
+        }
+      }
+      .info {
+        h4 {
+          font-weight: 500;
+        }
+        p {
+          font-weight: 500;
+          color: #828282;
+        }
       }
     }
   }

@@ -311,4 +311,32 @@ header nav .nav-links li {
 .meet-the-team .container .row .meet-column-imgs img {
   border-radius: 16px;
   padding: 10px;
+}
+.meet-the-team .container .row .meet-column-imgs .person1-img {
+  max-width: 90%;
+  align-self: flex-start;
+}
+
+.quote .container {
+  padding-top: 4rem;
+}
+.quote .container h3 {
+  width: 75%;
+  padding-bottom: 2rem;
+}
+.quote .container .row .image {
+  max-width: 80px;
+  height: 80px;
+  padding-right: 1rem;
+}
+.quote .container .row .image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+.quote .container .row .info h4 {
+  font-weight: 500;
+}
+.quote .container .row .info p {
+  font-weight: 500;
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
