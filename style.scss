@@ -274,17 +274,11 @@ header {
   .container {
     .row {
       align-items: center;
-      .meet-image {
-        max-width: 200px;
-        height: 200px;
-        img {
-          border-radius: 16px;
-        }
-      }
+      justify-content: space-between;
       .column {
-        width: 50%;
+        width: 70%;
         h3 {
-          width: 50%;
+          width: 57%;
         }
         p {
           font-weight: 500;
@@ -298,20 +292,30 @@ header {
           width: 40%;
         }
       }
-      .meet-column-imgs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 200px;
-        height: 200px;
-        img {
-          border-radius: 16px;
-          padding: 10px;
+      .row {
+        width: 80%;
+        .meet-image {
+          max-width: 450px;
+          height: 450px;
+          img {
+            border-radius: 16px;
+          }
         }
-        .person1-img {
-          max-width: 90%;
-          align-self: flex-start;
+        .meet-column-imgs {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          max-width: 350px;
+          height: 350px;
+          img {
+            border-radius: 16px;
+            padding: 10px;
+          }
+          .person1-img {
+            max-width: 95%;
+            align-self: flex-start;
+          }
         }
       }
     }
@@ -320,6 +324,7 @@ header {
 
 // QUOTE
 .quote {
+  padding-bottom: 4rem;
   .container {
     padding-top: 4rem;
     h3 {
@@ -343,6 +348,36 @@ header {
         p {
           font-weight: 500;
           color: #828282;
+        }
+      }
+    }
+  }
+}
+
+// FOOTER
+footer {
+  background-color: #100e1d;
+  .container {
+    .row {
+      .footer-links {
+        li,
+        a {
+          font-weight: 400;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+      .column {
+        h1 {
+          color: #f2f2f2;
+        }
+        .row {
+          .fa-brands {
+            font-size: 18px;
+            padding-right: 10px;
+            color: #f2f2f2;
+            cursor: pointer;
+          }
         }
       }
     }

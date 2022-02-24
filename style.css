@@ -275,19 +275,13 @@ header nav .nav-links li {
 }
 .meet-the-team .container .row {
   align-items: center;
-}
-.meet-the-team .container .row .meet-image {
-  max-width: 200px;
-  height: 200px;
-}
-.meet-the-team .container .row .meet-image img {
-  border-radius: 16px;
+  justify-content: space-between;
 }
 .meet-the-team .container .row .column {
-  width: 50%;
+  width: 70%;
 }
 .meet-the-team .container .row .column h3 {
-  width: 50%;
+  width: 57%;
 }
 .meet-the-team .container .row .column p {
   font-weight: 500;
@@ -300,23 +294,36 @@ header nav .nav-links li {
   color: #4f4f4f;
   width: 40%;
 }
-.meet-the-team .container .row .meet-column-imgs {
+.meet-the-team .container .row .row {
+  width: 80%;
+}
+.meet-the-team .container .row .row .meet-image {
+  max-width: 450px;
+  height: 450px;
+}
+.meet-the-team .container .row .row .meet-image img {
+  border-radius: 16px;
+}
+.meet-the-team .container .row .row .meet-column-imgs {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 200px;
-  height: 200px;
+  max-width: 350px;
+  height: 350px;
 }
-.meet-the-team .container .row .meet-column-imgs img {
+.meet-the-team .container .row .row .meet-column-imgs img {
   border-radius: 16px;
   padding: 10px;
 }
-.meet-the-team .container .row .meet-column-imgs .person1-img {
-  max-width: 90%;
+.meet-the-team .container .row .row .meet-column-imgs .person1-img {
+  max-width: 95%;
   align-self: flex-start;
 }
 
+.quote {
+  padding-bottom: 4rem;
+}
 .quote .container {
   padding-top: 4rem;
 }
@@ -339,4 +346,23 @@ header nav .nav-links li {
 .quote .container .row .info p {
   font-weight: 500;
   color: #828282;
+}
+
+footer {
+  background-color: #100e1d;
+}
+footer .container .row .footer-links li,
+footer .container .row .footer-links a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+footer .container .row .column h1 {
+  color: #f2f2f2;
+}
+footer .container .row .column .row .fa-brands {
+  font-size: 18px;
+  padding-right: 10px;
+  color: #f2f2f2;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
