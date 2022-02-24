@@ -224,6 +224,19 @@ header nav .nav-links li {
   width: 35%;
   padding: 4rem 1rem;
 }
+.image-grid .container .grid-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.image-grid .container .grid-link a {
+  font-weight: 500;
+  color: #2d9cdb;
+  font-size: 24px;
+}
+.image-grid .container .grid-link a .fas {
+  padding-left: 0.5rem;
+  vertical-align: middle;
+}
 .image-grid .container .row {
   position: relative;
   padding-bottom: 2rem;
@@ -247,6 +260,9 @@ header nav .nav-links li {
 }
 .image-grid .container .row .column h4 {
   font-weight: 500;
+}
+.image-grid .container .row .column .mobile-info-grid {
+  padding-top: 30px;
 }
 .image-grid .container .row .col-positioning {
   padding-top: 3rem;

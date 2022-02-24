@@ -220,6 +220,20 @@ header {
       width: 35%;
       padding: 4rem 1rem;
     }
+    .grid-link {
+      display: flex;
+      justify-content: flex-end;
+      a {
+        font-weight: 500;
+        color: #2d9cdb;
+        font-size: 24px;
+
+        .fas {
+          padding-left: 0.5rem;
+          vertical-align: middle;
+        }
+      }
+    }
     .row {
       position: relative;
       padding-bottom: 2rem;
@@ -241,6 +255,9 @@ header {
         }
         h4 {
           font-weight: 500;
+        }
+        .mobile-info-grid {
+          padding-top: 30px;
         }
       }
       .col-positioning {
