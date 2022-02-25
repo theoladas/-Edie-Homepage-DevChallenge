@@ -717,11 +717,18 @@ header {
 // FOOTER
 footer {
   background-color: #100e1d;
+  padding: 1rem;
   .container {
     .row {
       padding-top: 2rem;
       justify-content: space-between;
+      @media (max-width: 500px) {
+        flex-direction: column;
+      }
       .footer-links {
+        @media (max-width: 500px) {
+          padding-bottom: 1rem;
+        }
         li,
         a {
           font-weight: 400;
@@ -734,11 +741,20 @@ footer {
         }
       }
       .column {
+        @media (max-width: 500px) {
+          padding-bottom: 1rem;
+        }
         h1 {
           color: #f2f2f2;
         }
         .row {
           padding-top: 0;
+          @media (max-width: 500px) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            padding-bottom: 1rem;
+          }
           .fa-brands {
             font-size: 18px;
             padding-right: 10px;
@@ -751,7 +767,13 @@ footer {
           }
         }
       }
-      .column {
+      .column-form {
+        @media (max-width: 500px) {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
         span {
           color: #f2f2f2;
           font-size: 14px;
@@ -760,30 +782,37 @@ footer {
           font-family: "Poppins", sans-serif;
           font-size: 18px;
           font-weight: 500;
-          position: relative;
+          @media (max-width: 500px) {
+            width: 100%;
+          }
           input[type="email"] {
             font-family: "Poppins", sans-serif;
-            font-size: 18px;
+            font-size: 12px;
             font-weight: 500;
             border-radius: 12px;
             background-color: #f2f2f2;
             border: none;
+            padding-right: 5px;
             padding: 10px;
             margin: 10px 0px;
-            width: 90%;
+            width: 70%;
+            @media (max-width: 500px) {
+              width: 100%;
+            }
           }
-          button {
+          input[type="submit"] {
+            margin-left: -65px;
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
             background-color: #2d9cdb;
             color: rgba(242, 242, 242, 0.8);
             border: none;
-            font-size: 18px;
+            font-size: 12px;
             border-radius: 12px;
             cursor: pointer;
-            padding: 10px 20px;
+            padding: 8px 10px;
             transition: all 0.3s ease;
-            position: absolute;
-            bottom: 13px;
-            left: 113px;
             &:hover {
               color: rgba(242, 242, 242, 1);
             }
