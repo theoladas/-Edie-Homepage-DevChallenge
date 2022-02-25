@@ -274,7 +274,6 @@ header nav .burger:hover {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  position: relative;
 }
 .hero-subscribe form input[type=email] {
   font-family: "Poppins", sans-serif;
@@ -283,24 +282,26 @@ header nav .burger:hover {
   border-radius: 12px;
   background-color: #f2f2f2;
   border: none;
+  width: 40%;
+  padding-right: 50px;
   padding: 10px;
   margin: 10px 0px;
-  width: 30%;
 }
-.hero-subscribe button {
+.hero-subscribe form input[type=submit] {
+  margin-left: -100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
   background-color: #2d9cdb;
   color: rgba(242, 242, 242, 0.8);
   border: none;
   font-size: 18px;
   border-radius: 12px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 8px 15px;
   transition: all 0.3s ease;
-  position: absolute;
-  bottom: 13px;
-  left: 230px;
 }
-.hero-subscribe button:hover {
+.hero-subscribe form input[type=submit]:hover {
   color: #f2f2f2;
 }
 
