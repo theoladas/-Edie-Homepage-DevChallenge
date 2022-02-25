@@ -238,6 +238,20 @@ header {
       padding-right: 50px;
       padding: 10px;
       margin: 10px 0px;
+      @media (max-width: 1024px) {
+        width: 50%;
+      }
+      @media (max-width: 768px) {
+        width: 60%;
+      }
+      @media (max-width: 600px) {
+        width: 80%;
+        font-size: 14px;
+      }
+      @media (max-width: 450px) {
+        width: 100%;
+        font-size: 12px;
+      }
     }
 
     input[type="submit"] {
@@ -255,6 +269,19 @@ header {
       transition: all 0.3s ease;
       &:hover {
         color: rgba(242, 242, 242, 1);
+      }
+      @media (max-width: 600px) {
+        padding: 8px;
+        font-size: 16px;
+        margin-left: -80px;
+      }
+      @media (max-width: 600px) {
+        font-size: 14px;
+        margin-left: -70px;
+      }
+      @media (max-width: 450px) {
+        font-size: 12px;
+        margin-left: -60px;
       }
     }
   }
