@@ -805,14 +805,61 @@ header nav .burger:hover {
 }
 
 .quote {
-  padding-bottom: 4rem;
+  padding: 4rem 0rem;
+}
+@media (max-width: 1024px) {
+  .quote {
+    padding: 2rem 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .quote {
+    padding-bottom: 2rem;
+  }
 }
 .quote .container {
   padding-top: 4rem;
 }
+@media (max-width: 1024px) {
+  .quote .container {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .quote .container {
+    padding-top: 0.5rem;
+  }
+}
 .quote .container h3 {
   width: 75%;
   padding-bottom: 2rem;
+}
+@media (max-width: 1024px) {
+  .quote .container h3 {
+    font-size: 34px;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .quote .container h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .quote .container h3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 500px) {
+  .quote .container h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .quote .container h3 {
+    font-size: 20px;
+  }
 }
 .quote .container .row .image {
   max-width: 80px;
@@ -826,9 +873,19 @@ header nav .burger:hover {
 .quote .container .row .info h4 {
   font-weight: 500;
 }
+@media (max-width: 500px) {
+  .quote .container .row .info h4 {
+    font-size: 20px;
+  }
+}
 .quote .container .row .info p {
   font-weight: 500;
   color: #828282;
+}
+@media (max-width: 500px) {
+  .quote .container .row .info p {
+    font-size: 16px;
+  }
 }
 
 footer {

@@ -649,12 +649,41 @@ header {
 
 // QUOTE
 .quote {
-  padding-bottom: 4rem;
+  padding: 4rem 0rem;
+  @media (max-width: 1024px) {
+    padding: 2rem 1rem;
+  }
+  @media (max-width: 500px) {
+    padding-bottom: 2rem;
+  }
   .container {
     padding-top: 4rem;
+    @media (max-width: 1024px) {
+      padding-top: 2rem;
+    }
+    @media (max-width: 500px) {
+      padding-top: 0.5rem;
+    }
     h3 {
       width: 75%;
       padding-bottom: 2rem;
+      @media (max-width: 1024px) {
+        font-size: 34px;
+        width: 80%;
+      }
+      @media (max-width: 768px) {
+        font-size: 30px;
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        font-size: 28px;
+      }
+      @media (max-width: 500px) {
+        font-size: 24px;
+      }
+      @media (max-width: 400px) {
+        font-size: 20px;
+      }
     }
     .row {
       .image {
@@ -669,10 +698,16 @@ header {
       .info {
         h4 {
           font-weight: 500;
+          @media (max-width: 500px) {
+            font-size: 20px;
+          }
         }
         p {
           font-weight: 500;
           color: #828282;
+          @media (max-width: 500px) {
+            font-size: 16px;
+          }
         }
       }
     }
