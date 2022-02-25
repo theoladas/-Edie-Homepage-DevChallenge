@@ -464,6 +464,49 @@ header nav .burger:hover {
   font-size: 16px;
 }
 
+.image-grid .grid-link {
+  padding: 1rem;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+@media (max-width: 1160px) {
+  .image-grid .grid-link {
+    position: initial;
+    padding: 0.3rem 2rem;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 1160px) {
+  .image-grid .grid-link {
+    padding: 0.3rem 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .image-grid .grid-link {
+    padding: 0rem 1rem;
+  }
+}
+.image-grid .grid-link a {
+  font-weight: 500;
+  color: #2d9cdb;
+  font-size: 24px;
+}
+@media (max-width: 1160px) {
+  .image-grid .grid-link a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .image-grid .grid-link a {
+    font-size: 16px;
+  }
+}
+.image-grid .grid-link a .fas {
+  padding: 0.35rem 0.5rem;
+  vertical-align: middle;
+}
 .image-grid .container h3 {
   width: 35%;
   padding: 4rem 1rem;

@@ -388,6 +388,39 @@ header {
 
 // IMAGE GRID
 .image-grid {
+  .grid-link {
+    padding: 1rem;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    @media (max-width: 1160px) {
+      position: initial;
+      padding: 0.3rem 2rem;
+      margin-left: 0;
+      width: 100%;
+    }
+    @media (max-width: 1160px) {
+      padding: 0.3rem 1rem;
+    }
+    @media (max-width: 400px) {
+      padding: 0rem 1rem;
+    }
+    a {
+      font-weight: 500;
+      color: #2d9cdb;
+      font-size: 24px;
+      @media (max-width: 1160px) {
+        font-size: 20px;
+      }
+      @media (max-width: 400px) {
+        font-size: 16px;
+      }
+      .fas {
+        padding: 0.35rem 0.5rem;
+        vertical-align: middle;
+      }
+    }
+  }
   .container {
     h3 {
       width: 35%;
@@ -419,26 +452,7 @@ header {
         font-size: 24px;
       }
     }
-    // a {
-    //   font-weight: 500;
-    //   color: #2d9cdb;
-    //   font-size: 24px;
-    //   display: flex;
-    //   justify-content: flex-end;
-    //   padding-bottom: 6rem;
-    //   .fas {
-    //     padding: 0.35rem 0.5rem;
-    //     vertical-align: middle;
-    //   }
-    //   @media (max-width: 1160px) {
-    //     font-size: 22px;
-    //     display: block;
-    //     flex-direction: column;
-    //     justify-content: flex-end;
-    //     align-items: flex-end;
-    //     padding: 3rem 1rem;
-    //   }
-    // }
+
     .row {
       position: relative;
       padding-bottom: 2rem;
