@@ -277,6 +277,11 @@ header nav .burger:hover {
   color: #4f4f4f;
   padding: 1rem 0rem;
 }
+@media (max-width: 1024px) {
+  .hero-subscribe p {
+    width: 60%;
+  }
+}
 @media (max-width: 768px) {
   .hero-subscribe p {
     width: 100%;
