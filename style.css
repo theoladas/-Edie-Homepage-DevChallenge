@@ -331,7 +331,7 @@ header nav .burger:hover {
 }
 @media (max-width: 450px) {
   .hero-subscribe form input[type=email] {
-    width: 100%;
+    width: 90%;
     font-size: 12px;
   }
 }
@@ -983,7 +983,10 @@ footer .container .row .column-form form {
 }
 @media (max-width: 500px) {
   footer .container .row .column-form form {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 footer .container .row .column-form form input[type=email] {
@@ -1000,7 +1003,7 @@ footer .container .row .column-form form input[type=email] {
 }
 @media (max-width: 500px) {
   footer .container .row .column-form form input[type=email] {
-    width: 100%;
+    width: 90%;
   }
 }
 footer .container .row .column-form form input[type=submit] {

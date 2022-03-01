@@ -186,7 +186,6 @@ header {
   @media (max-width: 768px) {
     padding: 1rem 0rem;
   }
-
   img {
     border-radius: 18px;
   }
@@ -264,7 +263,7 @@ header {
         font-size: 14px;
       }
       @media (max-width: 450px) {
-        width: 100%;
+        width: 90%;
         font-size: 12px;
       }
     }
@@ -793,7 +792,10 @@ footer {
           font-size: 18px;
           font-weight: 500;
           @media (max-width: 500px) {
-            width: 100%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
           input[type="email"] {
             font-family: "Poppins", sans-serif;
@@ -807,7 +809,7 @@ footer {
             margin: 10px 0px;
             width: 100%;
             @media (max-width: 500px) {
-              width: 100%;
+              width: 90%;
             }
           }
           input[type="submit"] {
