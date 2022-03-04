@@ -296,6 +296,10 @@ header {
         font-size: 12px;
         margin-left: -60px;
       }
+      @media (max-width: 375px) {
+        font-size: 12px;
+        margin-left: -70px;
+      }
     }
   }
 }
@@ -827,6 +831,10 @@ footer {
             transition: all 0.3s ease;
             &:hover {
               color: rgba(242, 242, 242, 1);
+            }
+            @media (max-width: 375px) {
+              font-size: 12px;
+              margin-left: -75px;
             }
           }
         }

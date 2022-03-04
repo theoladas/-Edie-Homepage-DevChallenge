@@ -371,6 +371,12 @@ header nav .burger:hover {
     margin-left: -60px;
   }
 }
+@media (max-width: 375px) {
+  .hero-subscribe form input[type=submit] {
+    font-size: 12px;
+    margin-left: -70px;
+  }
+}
 
 .cards h3 {
   width: 35%;
@@ -1022,6 +1028,12 @@ footer .container .row .column-form form input[type=submit] {
 }
 footer .container .row .column-form form input[type=submit]:hover {
   color: #f2f2f2;
+}
+@media (max-width: 375px) {
+  footer .container .row .column-form form input[type=submit] {
+    font-size: 12px;
+    margin-left: -75px;
+  }
 }
 footer .container .row .footer-text {
   padding-bottom: 1rem;
